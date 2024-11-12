@@ -1,0 +1,41 @@
+/* Gallery Page Specific Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .placeholder {
+    width: 100%;
+    aspect-ratio: 4 / 3; /* Keeps a consistent aspect ratio */
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-size: 1.2em;
+    background-color: #eaeaea; /* Light gray background */
+  }
+  /* CSS for lightbox effect */
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .lightbox-image {
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    border: 2px solid #fff;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
