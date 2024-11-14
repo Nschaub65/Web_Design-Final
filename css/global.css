@@ -26,17 +26,6 @@ footer {
   color: #2a5947;
 }
 
-.video-section {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.video-section h2 {
-  font-size: 2em;
-  color: #2a5947;
-  margin-bottom: 20px;
-}
-
 video {
   width: 80%;
   max-width: 800px;
@@ -69,5 +58,3 @@ video {
   background-color: #e65a28;
   transform: scale(1.1);
 }
-
-
