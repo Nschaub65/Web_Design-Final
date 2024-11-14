@@ -1,0 +1,59 @@
+/* Navigation Bar Styling */
+header nav {
+    background-color: #2a5947;
+    width: 100vw;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 30px;
+}
+
+.home-button {
+    background-color: #f8e8c1;
+    color: #2a5947;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.home-button img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f2f7f4;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+header nav ul li a:hover {
+    background-color: #f8e8c1;
+    color: #2a5947;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+

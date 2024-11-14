@@ -1,0 +1,102 @@
+/* Gallery Grid Layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Removes Underline from Placeholder Link */
+.placeholder-link {
+  text-decoration: none;
+}
+
+/* Placeholder Box Styling for Gallery Items */
+.placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  font-size: 1.2em;
+  background-color: #eaeaea;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Scale Effect on Placeholder Hover */
+.placeholder:hover {
+  transform: scale(1.05);
+}
+
+/* Lightbox Background for Enlarged Images */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Styling for Image within Lightbox */
+.lightbox-image {
+  color: #fff;
+  font-size: 2em;
+  padding: 20px;
+  border: 2px solid #fff;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #f8e8c1;
+  padding: 40px;
+  font-size: 24px;
+  color: #2a5947;
+  text-align: center;
+  border-radius: 8px;
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.modal:target {
+  display: flex;
+}
+
+
+.modal:target .modal-content {
+  transform: scale(1);
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #f8e8c1;
+  text-decoration: none;
+  cursor: pointer;
+}
