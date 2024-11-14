@@ -1,0 +1,73 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f2f7f4;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #5b8c5a;
+  color: #f2f7f4;
+  padding:  5px 20px;
+  text-align: center;
+}
+.intro {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 0;
+  color: #2a5947;
+}
+
+.video-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.video-section h2 {
+  font-size: 2em;
+  color: #2a5947;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.adventure-link {
+  text-align: left;
+  margin: 20px 5%;
+  font-size: 1.5em;
+  color: #333;
+  max-width: 80%;
+  transform: translateX(10%);
+}
+
+.adventure-button {
+  color: #ffffff;
+  background-color: #ff6b35;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  font-size: 1em; 
+}
+
+.adventure-button:hover {
+  background-color: #e65a28;
+  transform: scale(1.1);
+}
+
+
