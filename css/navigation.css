@@ -60,4 +60,28 @@ header nav ul li a:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.adventure-link {
+    text-align: left;
+    margin: 20px 5%;
+    font-size: 1.5em;
+    color: #333;
+    max-width: 80%;
+    transform: translateX(10%);
+}
 
+.adventure-button {
+    color: #ffffff;
+    background-color: #ff6b35;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.adventure-button:hover {
+    background-color: #e65a28;
+    transform: scale(1.1);
+}

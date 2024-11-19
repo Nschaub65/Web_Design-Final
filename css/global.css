@@ -9,13 +9,13 @@ body {
   background-color: #f2f7f4;
   color: #333333;
   margin: 0;
-  padding: 0;
-  padding-top: 70px;
+  padding-top: 70px; /* Matches the nav bar's height */
   min-height: 100vh;
 }
 
 main {
   padding: 20px;
+  margin-top: 100px;
 }
 
 footer {
@@ -30,31 +30,5 @@ footer {
   font-size: 2em;
   margin: 10px 0;
   color: #2a5947;
-}
-
-
-.adventure-link {
-  text-align: left;
-  margin: 20px 5%;
-  font-size: 1.5em;
-  color: #333;
-  max-width: 80%;
-  transform: translateX(10%);
-}
-
-.adventure-button {
-  color: #ffffff;
-  background-color: #ff6b35;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  display: inline-block;
-  font-size: 1em;
-}
-
-.adventure-button:hover {
-  background-color: #e65a28;
-  transform: scale(1.1);
+  transform: translateX(2%);
 }
