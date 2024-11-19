@@ -1,11 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
   font-family: 'Raleway', sans-serif;
   background-color: #f2f7f4;
   color: #333333;
   margin: 0;
   padding: 0;
+  padding-top: 70px;
   min-height: 100vh;
 }
 
@@ -16,9 +21,10 @@ main {
 footer {
   background-color: #5b8c5a;
   color: #f2f7f4;
-  padding:  5px 20px;
+  padding: 5px 20px;
   text-align: center;
 }
+
 .intro {
   text-align: center;
   font-size: 2em;
@@ -26,12 +32,6 @@ footer {
   color: #2a5947;
 }
 
-video {
-  width: 80%;
-  max-width: 800px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
 
 .adventure-link {
   text-align: left;
@@ -51,7 +51,7 @@ video {
   border-radius: 4px;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 .adventure-button:hover {

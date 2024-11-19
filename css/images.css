@@ -1,54 +1,63 @@
-/* Home Image Styling */
-.home_image {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
 .home-container {
-    position: relative;
-    width: 100%;
-    max-width: 100%;
+  position: relative; 
+  width: 100%;
+  max-width: 100%;
+  height: auto; 
 }
 
 .home_image {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  display: block;
 }
 
 .text-overlay {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 48px;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 38%; 
+  left: 52%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
 }
 
+.text-overlay h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  white-space: nowrap; 
+}
+
+
+
 .side-by-side-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px; 
+    text-align: center;
     margin: 20px 0;
   }
   
-  .side-by-side-images img {
+  .side-by-side-images h2 {
+    font-size: 1.8em;
+    color: #2a5947;
+    margin-bottom: 20px; 
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .image-row img {
     width: 100%;
-    max-width: 45%; 
+    max-width: 45%;
+    height: auto;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
  
- 
-  
-  
+
   
 /* Honda Image */
 .centered-image {
