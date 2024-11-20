@@ -33,6 +33,12 @@ header nav ul li {
     transition: all 0.3s ease;
     box-sizing: border-box;
 }
+.home-button:hover {
+    background-color: #f8e8c1;
+    color: #2a5947;
+    transform: scale(1.2); /* Increased zoom effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for emphasis */
+}
 
 .home-button img {
     width: 50px;

@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #f2f7f4 ;
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-family: 'Raleway', sans-serif;
@@ -35,6 +36,4 @@ footer {
   transform: translateX(2%);
 }
 
-body.adventures-page {
-  background-color: #dce8d5;
-}
+
