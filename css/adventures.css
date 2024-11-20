@@ -1,3 +1,4 @@
+
 .adventures-title {
     text-align: center;
     padding: 40px 20px;
@@ -15,8 +16,8 @@
 .adventures-title p {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto; /* Center the paragraph */
-    max-width: 800px; /* Restrict width for better readability */
+    margin: 0 auto; 
+    max-width: 800px; 
     color: #555;
 }
 
@@ -27,13 +28,13 @@
     margin: 60px auto;
     padding: 0 20px;
     max-width: 1200px;
-    justify-content: center; /* Ensure the grid stays centered */
+    justify-content: center; 
 }
 
 .adventure-gallery figure {
     text-align: center;
-    margin: 0 auto; /* Center the figure in the grid */
-    transform: translateX(0); /* Neutralize default translation */
+    margin: 0 auto; 
+    transform: translateX(0); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -98,42 +99,5 @@
     }
 }
 
-.circle-container {
-    position: relative;
-    width: 100%;
-    height: 100px; /* Shorter background */
-    background: #f2f7f4; /* Original light green background */
-    overflow: hidden;
-  }
-  
-  .circle {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.6;
-  }
-  
-  .circle-large {
-    width: 150px; /* Smaller circle */
-    height: 150px;
-    background: #ff6b35;
-    top: -20px; /* Positioned to overlap slightly */
-    left: 20px;
-  }
-  
-  .circle-medium {
-    width: 100px;
-    height: 100px;
-    background: #e65a28;
-    top: -10px; /* Slight overlap */
-    right: 50px;
-  }
-  
-  .circle-small {
-    width: 80px;
-    height: 80px;
-    background: #184d47;
-    bottom: 0px; /* Sits at the bottom */
-    left: 100px;
-  }
-  
-  
+
+
