@@ -12,7 +12,7 @@ body {
   background-color: #f2f7f4;
   color: #333333;
   margin: 0;
-  padding-top: 70px; /* Matches the nav bar's height */
+  padding-top: 70px; 
   min-height: 100vh;
 }
 
@@ -31,7 +31,7 @@ footer {
 .intro {
   text-align: center;
   font-size: 2em;
-  margin: 10px 0;
+  margin: 10px auto;
   color: #2a5947;
   transform: translateX(2%);
 }
