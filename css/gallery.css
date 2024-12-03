@@ -36,9 +36,6 @@ section[id$="-gallery"] {
   border-radius: 2px;
 }
 
-
-
-
 /* Row Background */
 .rafting-container {
   background: linear-gradient(135deg, #f2f7f4, #dce8d5); /* Light green gradient */
@@ -67,7 +64,6 @@ section[id$="-gallery"] {
   margin-bottom: 30px;
   text-align: center;
 }
-
 
 /* Gallery Grid Layout */
 .gallery {

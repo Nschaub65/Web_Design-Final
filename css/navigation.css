@@ -68,12 +68,12 @@ header nav ul li a:hover {
 
 /* Adventure Button Link */
 .adventure-link {
-    text-align: left;
+    display: flex;
+    justify-content: center;
     margin: 20px 5%;
     font-size: 1.5em;
     color: #333;
     max-width: 80%;
-    transform: translateX(10%);
 }
 
 .adventure-button {

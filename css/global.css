@@ -11,15 +11,17 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #333333;
   margin: 0;
-  padding-top: 70px; 
+  padding-top: 70px;
   min-height: 100vh;
 }
 
 main {
   padding: 20px;
   margin-top: 100px;
+  scroll-padding-top: 80px;
 }
 
+/* Introduction Section Styling */
 .intro {
   display: flex;
   flex-direction: column;
@@ -40,7 +42,6 @@ main {
   line-height: 1.7;
 }
 
-
 /* Footer Wrapper */
 .footer-wrapper {
   position: relative;
@@ -50,11 +51,10 @@ main {
 footer {
   background-color: #5b8c5a;
   color: #f2f7f4;
-  padding: 10px 20px; /* Reduce vertical and horizontal padding */
+  padding: 10px 20px; 
   text-align: center;
-  font-size: 0.9rem; /* Optional: Adjust font size for a smaller look */
+  font-size: 0.9rem; 
 }
-
 
 /* Scroll-to-Top Button */
 .scroll-top {

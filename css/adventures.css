@@ -1,4 +1,3 @@
-
 .adventures-title {
     text-align: center;
     padding: 40px 20px;
@@ -16,9 +15,9 @@
 .adventures-title p {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto; 
-    max-width: 800px; 
     color: #555;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .adventure-gallery {
@@ -31,10 +30,14 @@
     justify-content: center; 
 }
 
-.adventure-gallery figure {
+  
+
+.adventure-item {
     text-align: center;
+}
+
+.adventure-gallery figure {
     margin: 0 auto; 
-    transform: translateX(0); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -43,8 +46,7 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    transform-origin: center center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .adventure-gallery img:hover {
@@ -53,15 +55,16 @@
 
 .adventure-gallery figcaption {
     margin-top: 10px;
-    font-size: 1.4em;
+    font-size: 1.8em;
     color: #2a5947;
     font-weight: bold;
 }
 
 .image-description {
-    margin-top: 5px;
-    font-size: 1em;
+    font-size: 1.1em; 
     color: #555;
+    max-width: 800px;
+    margin: 10px auto 0; 
 }
 
 .divider {
@@ -98,6 +101,3 @@
         transform: translateY(0);
     }
 }
-
-
-
