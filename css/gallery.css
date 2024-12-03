@@ -1,33 +1,75 @@
-/* Page Title Styling */
-.gallery-title h1 {
+/* Add spacing above sections to ensure titles are visible */
+section[id$="-gallery"] {
+  scroll-margin-top: 100px; 
+}
+
+/* Page Header Styling */
+.gallery-header {
   text-align: center;
-  font-size: 3rem; 
-  font-weight: bold;
-  color: #2a5947;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  position: relative;
 }
 
-.gallery-title p {
+.gallery-header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 40px;
+  background-color: #184d47;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid #f8e8c1;
+}
+
+.gallery-header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+
+
+
+/* Row Background */
+.rafting-container {
+  background: linear-gradient(135deg, #f2f7f4, #dce8d5); /* Light green gradient */
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  margin: 60px 5%; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+/* Styled Row Titles (Rafting, Camping, Climbing, Hiking) */
+.rafting-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 15px 30px;
+  background-color: #184d47;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 4px solid #f8e8c1;
+  margin-bottom: 30px;
   text-align: center;
-  font-size: 1.5rem; 
-  color: #555;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-/* Rafting Section Label */
-.rafting-header h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #184d47;
-  margin-left: 5%; 
-  padding-top: 20px; 
-  margin-bottom: 30px; 
-  display: block; 
 }
 
 
-/* Gallery Grid Layout - Larger Images */
+/* Gallery Grid Layout */
 .gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
@@ -36,22 +78,21 @@
   margin: 0 auto; 
 }
 
-/* Image Styling for Rafting Images */
+/* Gallery Images */
 .gallery-image {
   width: 100%;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .gallery-image:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
-
-/* Lightbox Modal Styling */
+/* Modal Styling */
 .modal {
   display: none;
   position: fixed;
@@ -59,7 +100,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8); 
   justify-content: center;
   align-items: center;
   z-index: 1000;
@@ -98,6 +139,5 @@
 }
 
 .close-btn:hover {
-  color: #ff6b35;
+  color: #ff6b35; 
 }
-

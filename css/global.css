@@ -5,11 +5,10 @@
 }
 
 body {
-  background-color: #f2f7f4 ;
+  background-color: #f2f2f2;
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-family: 'Raleway', sans-serif;
-  background-color: #f2f7f4;
   color: #333333;
   margin: 0;
   padding-top: 70px; 
@@ -21,19 +20,65 @@ main {
   margin-top: 100px;
 }
 
-footer {
-  background-color: #5b8c5a;
-  color: #f2f7f4;
-  padding: 5px 20px;
-  text-align: center;
-}
-
 .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 2em;
   margin: 10px auto;
   color: #2a5947;
-  transform: translateX(2%);
+  transform: translateY(50px);
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.7;
 }
 
 
+/* Footer Wrapper */
+.footer-wrapper {
+  position: relative;
+}
+
+/* Footer */
+footer {
+  background-color: #5b8c5a;
+  color: #f2f7f4;
+  padding: 10px 20px; /* Reduce vertical and horizontal padding */
+  text-align: center;
+  font-size: 0.9rem; /* Optional: Adjust font size for a smaller look */
+}
+
+
+/* Scroll-to-Top Button */
+.scroll-top {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  background-color: #184d47;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 60px; 
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1000; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Scroll Button */
+.scroll-top:hover {
+  transform: scale(1.2); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
