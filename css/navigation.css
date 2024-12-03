@@ -33,6 +33,7 @@ header nav ul li {
     transition: all 0.3s ease;
     box-sizing: border-box;
 }
+
 .home-button:hover {
     background-color: #f8e8c1;
     color: #2a5947;
@@ -54,7 +55,7 @@ header nav ul li a {
     color: #f2f7f4;
     text-decoration: none;
     border: 2px solid transparent;
-    border-radius: 8px;
+    border-radius: 8px; /* Ensures corners are rounded */
     transition: all 0.3s ease;
     box-sizing: border-box;
 }
@@ -64,6 +65,21 @@ header nav ul li a:hover {
     color: #2a5947;
     transform: scale(1.05);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Keeps corners rounded when hovered */
+}
+
+/* Style for Active Page Link */
+header nav ul li a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 6px; 
+    text-decoration-color: #f8e8c1; 
+    text-underline-offset: 10px; 
+    font-weight: bold;
+}
+
+/* Remove Underline When Hovering Over the Active Link */
+header nav ul li a.active:hover {
+    text-decoration: none; /* Removes the underline on hover */
 }
 
 /* Adventure Button Link */
@@ -92,11 +108,3 @@ header nav ul li a:hover {
     background-color: #e65a28;
     transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
